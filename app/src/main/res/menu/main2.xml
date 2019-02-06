@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/editionMode"
+        android:orderInCategory="100"
+        android:title="Mode Edition"
+        android:visible="false"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/update"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_action_update"
+        android:visible="false"
+        app:showAsAction="always"
+        android:title="" />
+</menu>

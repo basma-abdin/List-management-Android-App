@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/lPublic"
+            android:icon="@drawable/ic_action_public"
+            android:title="Listes publiques" />
+        <item
+            android:id="@+id/lPrivate"
+            android:checkable="false"
+            android:icon="@drawable/ic_action_private"
+            android:title="Listes privées" />
+        <item
+            android:id="@+id/Historic"
+            android:icon="@drawable/ic_action_history"
+            android:title="Historique" />
+        <item
+            android:id="@+id/uAccount"
+            android:icon="@drawable/ic_action_account"
+            android:title="Mon compte" />
+    </group>
+
+</menu>
